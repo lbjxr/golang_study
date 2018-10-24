@@ -1,6 +1,6 @@
 package main
 
-//var v_name1,v_name2,.... type
+//变量命名方式var v_name1,v_name2,.... type
 
 
 func main(){
