@@ -10,7 +10,7 @@ func sum(a []int, result chan int){
 	result <- sum
 }
 
-func main(){
+func sum_by_group(){
 	a := []int{2, 3, 5, 6, 10, -5, 1, 0}
 	result := make(chan int)
 	go sum(a[:len(a)/2], result)

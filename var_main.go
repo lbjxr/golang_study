@@ -12,6 +12,6 @@ var b string = " world"
 
 var c bool
 
-func main(){
+func var_main(){
 	println(a, b, c)
 }

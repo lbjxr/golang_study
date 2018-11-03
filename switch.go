@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "time"
 
-func main(){
+func switch_main(){
 
 	//一个基本的switch
 	i := 2

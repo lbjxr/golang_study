@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func if_else(){
 
 	//这里是一个基本例子
 	if 7%2 == 0 {
