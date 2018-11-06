@@ -2,11 +2,12 @@ package main
 
 import(
 	"fmt"
-	"golang_study/day02/example2/add"
+	//使用一个别名代替包名
+	a "golang_study/day02/example2/add"
 )
 
 func main(){
 
-	fmt.Println("Name = ", add.Name)
-	fmt.Println("Age = ", add.Age)
+	fmt.Println("Name = ", a.Name)
+	fmt.Println("Age = ", a.Age)
 }
